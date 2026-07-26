@@ -251,3 +251,99 @@
 2026-07-25 13:18:43,329 INFO Watching for file changes with StatReloader 681 
 2026-07-25 13:22:53,463 INFO E:\SajhaEduCore\config\apps\common\validators\phone.py changed, reloading. 265 
 2026-07-25 13:22:53,991 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:12:38,385 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:12:43,284 WARNING Not Found: / 249 
+2026-07-26 14:12:43,285 WARNING "GET / HTTP/1.1" 404 2859 249 
+2026-07-26 14:12:49,025 ERROR Internal Server Error: /swagger/ 249 
+Traceback (most recent call last):
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\drf_yasg\renderers.py", line 93, in render
+    return render_to_string(
+        self.template, renderer_context, renderer_context["request"]
+    )
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2026-07-26 14:12:49,030 ERROR "GET /swagger/ HTTP/1.1" 500 93900 249 
+2026-07-26 14:12:49,232 WARNING Not Found: /favicon.ico 249 
+2026-07-26 14:12:49,233 WARNING "GET /favicon.ico HTTP/1.1" 404 2910 249 
+2026-07-26 14:13:21,884 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:13:43,593 ERROR Internal Server Error: /swagger/ 249 
+Traceback (most recent call last):
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\drf_yasg\renderers.py", line 93, in render
+    return render_to_string(
+        self.template, renderer_context, renderer_context["request"]
+    )
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2026-07-26 14:13:43,598 ERROR "GET /swagger/ HTTP/1.1" 500 94037 249 
+2026-07-26 14:13:47,368 ERROR Internal Server Error: /swagger/ 249 
+Traceback (most recent call last):
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\drf_yasg\renderers.py", line 93, in render
+    return render_to_string(
+        self.template, renderer_context, renderer_context["request"]
+    )
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\SajhaEduCore\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2026-07-26 14:13:47,372 ERROR "GET /swagger/ HTTP/1.1" 500 93900 249 
+2026-07-26 14:13:54,269 WARNING Not Found: /redis/ 249 
+2026-07-26 14:13:54,270 WARNING "GET /redis/ HTTP/1.1" 404 2895 249 
+2026-07-26 14:14:25,114 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-26 14:14:25,933 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:14:28,943 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-26 14:14:29,780 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:14:35,923 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-26 14:14:36,741 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:14:49,297 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-26 14:14:50,045 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:14:55,535 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-26 14:14:56,027 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:15:26,429 INFO Watching for file changes with StatReloader 681 
+2026-07-26 14:15:31,858 INFO "GET /swagger/ HTTP/1.1" 200 2161 249 
+2026-07-26 14:15:31,885 INFO "GET /static/drf-yasg/style.css HTTP/1.1" 200 1187 249 
+2026-07-26 14:15:31,893 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 177183 249 
+2026-07-26 14:15:31,973 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 249 
+2026-07-26 14:15:32,006 INFO "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093 249 
+2026-07-26 14:15:32,013 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
+2026-07-26 14:15:32,052 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480 249 
+2026-07-26 14:15:32,063 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904 249 
+2026-07-26 14:15:32,174 INFO "GET /swagger/?format=openapi HTTP/1.1" 200 3246 249 
+2026-07-26 14:15:32,200 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
+2026-07-26 14:16:11,657 WARNING Unauthorized: /api/v1/auth/admin/ 249 
+2026-07-26 14:16:11,658 WARNING "POST /api/v1/auth/admin/ HTTP/1.1" 401 52 249 
+2026-07-26 14:16:34,080 WARNING Unauthorized: /api/v1/auth/admin/ 249 
+2026-07-26 14:16:34,081 WARNING "POST /api/v1/auth/admin/ HTTP/1.1" 401 52 249 
