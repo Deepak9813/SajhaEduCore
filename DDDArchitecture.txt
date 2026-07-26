@@ -1,0 +1,126 @@
+SajhaEduCore/
+│
+├── config/
+│   ├── __init__.py   #empty
+│   │
+│   ├── settings/
+│   │   ├── __init__.py   #empty
+│   │   ├── base.py
+│   │   ├── development.py
+│   │   └── production.py
+│   │
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+│
+└── apps/
+    ├── __init__.py   #empty
+    │
+    ├── api/
+    │   ├── __init__.py  #empty
+    │   └── urls.py
+    │
+    ├── common/
+    │   ├── __init__.py   #empty
+    │   ├── permissions.py
+    │   ├── throttles.py
+    │   ├── exceptions.py
+    │   ├── pagination.py
+    │   ├── views.py
+    │   └── constants.py
+    │
+    ├── academics/
+    │   ├── __init__.py #empty
+    │   │
+    │   └── courses/
+    │       ├── __init__.py  #empty
+    │       ├── models.py
+    │       ├── payloads.py
+    │       │
+    │       ├── services/
+    │       │   └── __init__.py
+    │       │
+    │       ├── selectors/
+    │       │   └── __init__.py
+    │       │
+    │       └── api/
+    │           ├── __init__.py (empty)
+    │           ├── urls.py
+    │           ├── permissions.py
+    │           ├── throttles.py
+    │           ├── filters.py
+    │           │
+    │           ├── serializers/
+    │           │   ├── __init__.py
+    │           │   └── course_serializer.py
+    │           │
+    │           └── views/
+    │               ├── __init__.py
+    │               └── course_view.py
+    │
+    ├── students/
+    │   ├── __init__.py #empty
+    │   ├── models.py
+    │   ├── payloads.py
+    │   │
+    │   ├── services/
+    │   │   └── __init__.py
+    │   │
+    │   ├── selectors/
+    │   │   └── __init__.py
+    │   │
+    │   └── api/
+    │       ├── __init__.py
+    │       ├── urls.py
+    │       ├── permissions.py
+    │       ├── throttles.py
+    │       ├── filters.py
+    │       ├── serializers/
+    │       │   └── __init__.py
+    │       └── views/
+    │           └── __init__.py
+    │
+    ├── attendance/
+    │   ├── __init__.py   #empty
+    │   ├── models.py
+    │   ├── payloads.py
+    │   │
+    │   ├── services/
+    │   │   └── __init__.py
+    │   │
+    │   ├── selectors/
+    │   │   └── __init__.py
+    │   │
+    │   └── api/
+    │       ├── __init__.py
+    │       ├── urls.py
+    │       ├── permissions.py
+    │       ├── throttles.py
+    │       ├── filters.py
+    │       ├── serializers/
+    │       │   └── __init__.py
+    │       └── views/
+    │           └── __init__.py
+    │
+    └── authx/
+        ├── __init__.py  #empty
+        ├── models.py
+        │
+        ├── services/
+        │   ├── __init__.py
+        │   ├── login.py
+        │   ├── otp.py
+        │   └── tokens.py
+        │
+        └── api/
+            ├── __init__.py (empty)
+            ├── urls.py
+            ├── permissions.py
+            ├── throttles.py
+            │
+            ├── serializers/
+            │   └── __init__.py
+            │
+            └── views/
+                └── __init__.py

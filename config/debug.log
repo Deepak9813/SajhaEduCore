@@ -1,0 +1,253 @@
+2026-07-25 12:15:00,690 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:15:00,691 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:16:36,168 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:16:36,169 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:03,407 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:03,407 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:23,123 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:23,124 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:47,958 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:47,958 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:48,160 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:48,160 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:48,400 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:48,400 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:48,612 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:48,612 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:48,898 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:48,898 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:49,139 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:49,140 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:18:49,228 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:18:49,229 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:19:05,021 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:19:33,711 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:20:44,636 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:20:44,637 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:20:44,819 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:20:44,820 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:21:11,160 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:25:07,324 INFO "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0 249 
+2026-07-25 12:25:07,337 INFO "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0 249 
+2026-07-25 12:25:09,450 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:25:09,526 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:26:55,195 INFO "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0 249 
+2026-07-25 12:26:55,330 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:26:55,331 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:27:17,785 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:33:52,007 INFO E:\SajhaEduCore\config\config\settings\development.py changed, reloading. 265 
+2026-07-25 12:33:52,848 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:35:21,404 INFO E:\SajhaEduCore\config\config\settings\development.py changed, reloading. 265 
+2026-07-25 12:35:22,315 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:35:24,711 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:35:24,711 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:35:42,532 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:35:42,533 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:35:43,426 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:35:43,427 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:16,293 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:36:20,773 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:36:35,766 INFO "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0 249 
+2026-07-25 12:36:35,986 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:35,987 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:39,413 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:39,414 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:42,700 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:42,700 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:43,214 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:43,215 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:43,384 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:43,385 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:43,563 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:43,564 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:50,647 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:50,648 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:51,190 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:51,191 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:52,779 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:52,780 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:54,218 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:54,219 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:36:57,641 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:36:57,642 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:02,519 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:02,520 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:02,947 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:02,948 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:03,129 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:03,130 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:03,347 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:03,347 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:10,288 INFO E:\SajhaEduCore\config\config\settings\development.py changed, reloading. 265 
+2026-07-25 12:37:11,347 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:37:14,234 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:14,234 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:15,077 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:15,077 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:15,175 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:15,176 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:17,453 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:17,453 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:17,839 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:17,839 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:18,023 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:18,024 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:18,201 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:18,201 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:18,395 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:18,395 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:18,546 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:18,547 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:18,681 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:18,682 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:18,789 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:18,790 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:19,173 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:19,174 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:19,361 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:19,362 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:19,549 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:19,555 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:19,829 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:19,830 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:20,045 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:20,047 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:20,145 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:20,146 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:20,489 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:20,489 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:24,467 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:24,468 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:24,674 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:24,675 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:27,061 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:27,062 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:51,957 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:37:51,958 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:37:57,854 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:38:15,491 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:38:15,492 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:38:45,319 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:38:45,320 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:38:49,301 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:38:49,301 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:38:49,745 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:38:49,745 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:40:50,234 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:41:04,043 WARNING Unauthorized: /api/v1/auth/logout/ 249 
+2026-07-25 12:41:04,043 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 401 52 249 
+2026-07-25 12:41:11,541 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:41:12,525 WARNING Unauthorized: /api/v1/auth/logout/ 249 
+2026-07-25 12:41:12,525 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 401 52 249 
+2026-07-25 12:41:20,655 INFO "POST /api/v1/auth/logout/ HTTP/1.1" 200 74 249 
+2026-07-25 12:41:32,647 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:41:32,648 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:41:33,685 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:41:33,686 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:41:39,459 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:41:39,459 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:43:13,317 INFO "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0 249 
+2026-07-25 12:43:13,472 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:43:13,473 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:43:18,004 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:43:18,005 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:44:15,486 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:44:35,654 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:44:35,655 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:47:47,004 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:47:47,005 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:48:31,168 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:48:50,471 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:48:50,472 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:51:43,143 INFO "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0 249 
+2026-07-25 12:51:43,213 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:51:43,214 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:52:06,395 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:52:12,848 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:52:12,848 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:52:19,288 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:52:19,289 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:52:29,262 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:52:29,263 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:52:44,766 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:52:44,767 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:11,292 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:11,292 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:32,165 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:32,165 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:32,994 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:32,996 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:33,286 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:33,286 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:33,358 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:33,359 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:33,558 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:33,559 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:34,083 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:34,084 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:34,213 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:34,214 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:54:34,436 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:54:34,437 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:57:07,529 INFO E:\SajhaEduCore\config\apps\authx\api\views\logout_view.py changed, reloading. 265 
+2026-07-25 12:57:08,550 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:57:10,456 INFO E:\SajhaEduCore\config\apps\authx\api\views\logout_view.py changed, reloading. 265 
+2026-07-25 12:57:11,390 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:57:21,892 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:57:21,892 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:57:26,416 INFO E:\SajhaEduCore\config\apps\authx\api\views\login_view.py changed, reloading. 265 
+2026-07-25 12:57:27,353 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:57:38,893 INFO Watching for file changes with StatReloader 681 
+2026-07-25 12:57:43,800 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:57:43,801 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:57:48,207 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:57:48,207 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:58:08,648 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:58:19,944 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:58:19,945 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:58:27,350 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 12:58:35,387 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:58:35,388 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 12:59:04,576 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 12:59:04,577 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:00:14,100 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:00:14,101 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:00:21,999 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:00:21,999 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:03:25,942 INFO "OPTIONS /api/v1/auth/login/ HTTP/1.1" 200 0 249 
+2026-07-25 13:03:27,158 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 13:03:29,414 INFO "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0 249 
+2026-07-25 13:03:29,522 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:03:29,522 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:03:31,089 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:03:31,089 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:04:58,710 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:04:58,711 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:05:18,454 INFO E:\SajhaEduCore\config\apps\authx\api\views\logout_view.py changed, reloading. 265 
+2026-07-25 13:05:19,504 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:05:21,348 INFO E:\SajhaEduCore\config\apps\authx\api\views\logout_view.py changed, reloading. 265 
+2026-07-25 13:05:22,325 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:05:27,685 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:05:34,670 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 13:05:38,038 INFO "OPTIONS /api/v1/auth/logout/ HTTP/1.1" 200 0 249 
+2026-07-25 13:05:38,252 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:05:38,252 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:08:27,480 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:08:27,480 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:09:27,260 INFO E:\SajhaEduCore\config\config\settings\development.py changed, reloading. 265 
+2026-07-25 13:09:27,909 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:10:03,293 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 13:10:43,897 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 537 249 
+2026-07-25 13:11:58,403 INFO "POST /api/v1/auth/logout/ HTTP/1.1" 200 74 249 
+2026-07-25 13:12:25,919 WARNING Bad Request: /api/v1/auth/logout/ 249 
+2026-07-25 13:12:25,919 WARNING "POST /api/v1/auth/logout/ HTTP/1.1" 400 104 249 
+2026-07-25 13:14:21,717 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-25 13:14:22,328 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:14:35,149 INFO E:\SajhaEduCore\config\config\settings\base.py changed, reloading. 265 
+2026-07-25 13:14:35,809 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:18:24,162 INFO E:\SajhaEduCore\config\apps\common\constants.py changed, reloading. 265 
+2026-07-25 13:18:24,733 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:18:42,779 INFO E:\SajhaEduCore\config\apps\common\validators\image.py changed, reloading. 265 
+2026-07-25 13:18:43,329 INFO Watching for file changes with StatReloader 681 
+2026-07-25 13:22:53,463 INFO E:\SajhaEduCore\config\apps\common\validators\phone.py changed, reloading. 265 
+2026-07-25 13:22:53,991 INFO Watching for file changes with StatReloader 681 
