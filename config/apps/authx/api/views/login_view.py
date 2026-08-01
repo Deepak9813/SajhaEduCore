@@ -3,6 +3,8 @@ from django.contrib.auth import authenticate
 from rest_framework import status
 from rest_framework_simplejwt.exceptions import AuthenticationFailed
 
+from drf_yasg.utils import swagger_auto_schema
+
 from apps.authx.api.serializers import LoginSerializer
 from apps.authx.services.tokens import generate_tokens
 from apps.common.utils.serializer import validate_serializer
@@ -35,6 +37,9 @@ class LoginAPIView(BasePublicAPIView):
         - Refresh token in an HttpOnly cookie.
     """
 
+    @swagger_auto_schema(
+        request_body=LoginSerializer
+    )
     def post(self, request):
         serializer = LoginSerializer(data=request.data)
 
