@@ -413,3 +413,25 @@ django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 2026-08-01 23:24:24,737 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0 249 
 2026-08-01 23:24:24,885 INFO "GET /swagger/?format=openapi HTTP/1.1" 200 6126 249 
 2026-08-01 23:57:19,040 INFO Watching for file changes with StatReloader 681 
+2026-08-02 00:57:38,808 INFO Watching for file changes with StatReloader 681 
+2026-08-02 00:57:44,417 WARNING Not Found: /swagger/ 249 
+2026-08-02 00:57:44,418 WARNING "GET /swagger/ HTTP/1.1" 404 3062 249 
+2026-08-02 00:57:44,504 WARNING Not Found: /favicon.ico 249 
+2026-08-02 00:57:44,504 WARNING "GET /favicon.ico HTTP/1.1" 404 3071 249 
+2026-08-02 00:57:52,453 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 00:57:52,617 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
+2026-08-02 00:57:52,746 ERROR Internal Server Error: /api/swagger/ 249 
+2026-08-02 00:57:52,747 ERROR "GET /api/swagger/?format=openapi HTTP/1.1" 500 52 249 
+2026-08-02 01:01:11,268 INFO E:\SajhaEduCore\config\apps\academics\courses\models.py changed, reloading. 265 
+2026-08-02 01:01:12,099 INFO Watching for file changes with StatReloader 681 
+2026-08-02 01:02:08,904 INFO Watching for file changes with StatReloader 681 
+2026-08-02 01:02:15,020 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 01:02:15,039 INFO "GET /static/drf-yasg/style.css HTTP/1.1" 200 1187 249 
+2026-08-02 01:02:15,047 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 177183 249 
+2026-08-02 01:02:15,054 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 249 
+2026-08-02 01:02:15,056 INFO "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093 249 
+2026-08-02 01:02:15,061 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904 249 
+2026-08-02 01:02:15,064 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480 249 
+2026-08-02 01:02:15,072 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
+2026-08-02 01:02:15,243 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 9625 249 
+2026-08-02 01:02:15,250 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
