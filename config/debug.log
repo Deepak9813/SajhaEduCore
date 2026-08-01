@@ -412,3 +412,4 @@ django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 2026-08-01 23:24:24,737 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0 249 
 2026-08-01 23:24:24,737 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0 249 
 2026-08-01 23:24:24,885 INFO "GET /swagger/?format=openapi HTTP/1.1" 200 6126 249 
+2026-08-01 23:57:19,040 INFO Watching for file changes with StatReloader 681 

@@ -58,6 +58,8 @@ INSTALLED_APPS += THIRD_PARTY_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    # Must be immediately after SecurityMiddleware.
+    'whitenoise.middleware.WhiteNoiseMiddleware', #for render deployment
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',  # Cors be before CommonMiddleware
     'django.middleware.common.CommonMiddleware',
@@ -125,11 +127,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
 
 # Media configuration
 MEDIA_ROOT = BASE_DIR / 'media'  # To store media files(images, pdf, docx, etc.)
 MEDIA_URL = '/media/'  # To access media file to the browser
+
+# Static files configuration (Render Production)
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Logger
 LOGGING = {
