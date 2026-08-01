@@ -1,6 +1,8 @@
 from rest_framework import status
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
+from drf_yasg.utils import swagger_auto_schema
+
 from apps.academics.shifts.api.permissions import IsAdminOrReadOnly
 from apps.academics.shifts.api.serializers.shift_serializer import (
     ShiftSerializer,
@@ -31,7 +33,9 @@ class ShiftListCreateAPIView(BaseAPIView):
             status_code=status.HTTP_200_OK,
             data=[_shift_payload(shift) for shift in shifts]
         )
-
+    @swagger_auto_schema(
+        request_body=ShiftSerializer
+    )
     def post(self, request):
         serializer = ShiftSerializer(data=request.data)
         validate_serializer(serializer)
@@ -65,6 +69,9 @@ class ShiftDetailAPIView(BaseAPIView):
             data=_shift_payload(shift)
         )
 
+    @swagger_auto_schema(
+        request_body=ShiftSerializer
+    )
     def patch(self, request, reference_id):
         shift = self._get_shift(reference_id)
         serializer = ShiftSerializer(shift, data=request.data, partial=True)

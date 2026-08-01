@@ -1,6 +1,8 @@
 from rest_framework import status
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
+from drf_yasg.utils import swagger_auto_schema
+
 from apps.academics.employees.api.permissions import IsAdminOrReadOnly
 from apps.academics.employees.api.serializers.employee_serializer import (
     EmployeeSerializer,
@@ -36,6 +38,9 @@ class EmployeeListCreateAPIView(BaseAPIView):
             data=[_employee_payload(employee) for employee in employees]
         )
 
+    @swagger_auto_schema(
+        request_body=EmployeeSerializer
+    )
     def post(self, request):
         serializer = EmployeeSerializer(data=request.data, context={"request": request})
         validate_serializer(serializer)
@@ -71,7 +76,9 @@ class EmployeeDetailAPIView(BaseAPIView):
             status_code=status.HTTP_200_OK,
             data=_employee_payload(employee)
         )
-
+    @swagger_auto_schema(
+        request_body=EmployeeSerializer
+    )
     def patch(self, request, reference_id):
         employee = self._get_employee(reference_id)
         serializer = EmployeeSerializer(employee, data=request.data, partial=True, context={"request":request})

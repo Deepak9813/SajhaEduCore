@@ -2,6 +2,8 @@ from django.contrib.auth import get_user_model
 
 from rest_framework import status
 
+from drf_yasg.utils import swagger_auto_schema
+
 from apps.authx.api.serializers.admin_serializer import AdminSerializer
 from apps.authx.services import (
     create_user,
@@ -47,6 +49,9 @@ class AdminListCreateAPIView(BaseSuperUserAPIView):
             data=data
         )
 
+    @swagger_auto_schema(
+        request_body=AdminSerializer
+    )
     def post(self, request):
         serializer = AdminSerializer(data=request.data, context={"request":request})
         validate_serializer(serializer)
@@ -88,6 +93,9 @@ class AdminDetailAPIView(BaseSuperUserAPIView):
             data=_admin_payload(admin)
         )
 
+    @swagger_auto_schema(
+        request_body=AdminSerializer
+    )
     def patch(self, request, reference_id):
         admin = self._get_admin(reference_id)
         serializer = AdminSerializer(admin, data=request.data, partial=True, context={"request":request})

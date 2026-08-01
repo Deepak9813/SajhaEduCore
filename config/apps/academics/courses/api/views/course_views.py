@@ -3,6 +3,8 @@ from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
+from drf_yasg.utils import swagger_auto_schema
+
 from apps.academics.courses.api.permissions import IsAdminOrReadOnly
 from apps.academics.courses.api.serializers.course_serializer import (
     CourseSerializer,
@@ -36,6 +38,9 @@ class CourseListCreateAPIView(BaseAPIView):
             data=data
         )
 
+    @swagger_auto_schema(
+        request_body=CourseSerializer
+    )
     def post(self, request):
         serializer = CourseSerializer(data=request.data, context={"request": request})
         validate_serializer(serializer)
@@ -83,6 +88,9 @@ class CourseDetailAPIView(BaseAPIView):
         )
 
 
+    @swagger_auto_schema(
+        request_body=CourseSerializer
+    )
     def patch(self, request, reference_id):
         # course = get_object_or_404(Course, reference_id=reference_id, is_deleted=False) #we can also use this
         course = self._get_course(reference_id)
