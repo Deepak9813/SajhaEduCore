@@ -32,7 +32,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 # Trusted frontend origins for CSRF protection.
 CSRF_TRUSTED_ORIGINS = [
-    "https://sajhainfotech.com",
+    "https://sajhaeducore.onrender.com",
+    # "https://sajhainfotech.com",
     # "https://admin.sajhainfotech.com",
 ]
 
@@ -43,7 +44,8 @@ CSRF_TRUSTED_ORIGINS = [
 
 # Django backend API domain.
 ALLOWED_HOSTS = [
-    "api.sajhainfotech.com",
+    "sajhaeducore.onrender.com",
+    # "api.sajhainfotech.com",
 ]
 
 
