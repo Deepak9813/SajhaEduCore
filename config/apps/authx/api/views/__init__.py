@@ -1,10 +1,10 @@
-from .admin_view import AdminListCreateApiView, AdminDetailApiView
-from .login_view import LoginApiView
-from .logout_view import LogoutApiView
+from .admin_view import AdminListCreateAPIView, AdminDetailAPIView
+from .login_view import LoginAPIView
+from .logout_view import LogoutAPIView
 
 __all__ = [
-    "LoginApiView",
-    "AdminListCreateApiView",
-    "AdminDetailApiView",
-    "LogoutApiView",
+    "LoginAPIView",
+    "AdminListCreateAPIView",
+    "AdminDetailAPIView",
+    "LogoutAPIView",
 ]

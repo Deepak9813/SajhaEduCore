@@ -347,3 +347,56 @@ django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 2026-07-26 14:16:11,658 WARNING "POST /api/v1/auth/admin/ HTTP/1.1" 401 52 249 
 2026-07-26 14:16:34,080 WARNING Unauthorized: /api/v1/auth/admin/ 249 
 2026-07-26 14:16:34,081 WARNING "POST /api/v1/auth/admin/ HTTP/1.1" 401 52 249 
+2026-07-27 10:56:40,752 INFO Watching for file changes with StatReloader 681 
+2026-07-27 10:56:43,809 WARNING Not Found: / 249 
+2026-07-27 10:56:43,809 WARNING "GET / HTTP/1.1" 404 3008 249 
+2026-07-27 10:56:44,112 WARNING Not Found: / 249 
+2026-07-27 10:56:44,113 WARNING "GET / HTTP/1.1" 404 3008 249 
+2026-07-27 10:56:47,690 INFO "GET /swagger/ HTTP/1.1" 200 2161 249 
+2026-07-27 10:56:47,710 INFO "GET /static/drf-yasg/style.css HTTP/1.1" 200 1187 249 
+2026-07-27 10:56:47,722 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 177183 249 
+2026-07-27 10:56:47,797 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 249 
+2026-07-27 10:56:47,817 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
+2026-07-27 10:56:47,826 INFO "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093 249 
+2026-07-27 10:56:47,855 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480 249 
+2026-07-27 10:56:47,873 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904 249 
+2026-07-27 10:56:47,961 INFO "GET /swagger/?format=openapi HTTP/1.1" 200 3246 249 
+2026-07-27 10:58:26,146 INFO "GET /api/v1/courses/ HTTP/1.1" 200 83 249 
+2026-07-27 10:58:42,293 INFO "GET /api/v1/courses/ HTTP/1.1" 200 83 249 
+2026-07-27 10:59:37,096 WARNING Unauthorized: /api/v1/courses/ 249 
+2026-07-27 10:59:37,098 WARNING "POST /api/v1/courses/ HTTP/1.1" 401 52 249 
+2026-07-27 11:00:21,353 WARNING Unauthorized: /api/v1/courses/ 249 
+2026-07-27 11:00:21,354 WARNING "POST /api/v1/courses/ HTTP/1.1" 401 52 249 
+2026-07-27 11:01:49,054 WARNING Not Found: /api/v1/courses/djdjdj/ 249 
+2026-07-27 11:01:49,056 WARNING "GET /api/v1/courses/djdjdj/ HTTP/1.1" 404 3938 249 
+2026-07-27 11:02:37,126 WARNING Not Found: /api/v1/courses/11111111/ 249 
+2026-07-27 11:02:37,127 WARNING "GET /api/v1/courses/11111111/ HTTP/1.1" 404 3944 249 
+2026-08-01 10:59:42,312 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:20,803 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:21,375 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:26,060 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:26,560 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:31,086 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:31,685 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:35,277 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:35,818 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:42,555 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:43,128 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:46,779 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:47,364 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:50,994 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:51,576 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:02:54,175 INFO E:\SajhaEduCore\config\apps\authx\api\urls.py changed, reloading. 265 
+2026-08-01 11:02:54,695 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:03:13,762 INFO E:\SajhaEduCore\config\apps\academics\courses\api\urls.py changed, reloading. 265 
+2026-08-01 11:03:14,352 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:03:17,067 INFO E:\SajhaEduCore\config\apps\academics\courses\api\urls.py changed, reloading. 265 
+2026-08-01 11:03:17,617 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:03:21,285 INFO E:\SajhaEduCore\config\apps\academics\courses\api\urls.py changed, reloading. 265 
+2026-08-01 11:03:21,897 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:03:26,552 INFO E:\SajhaEduCore\config\apps\academics\courses\api\urls.py changed, reloading. 265 
+2026-08-01 11:03:27,058 INFO Watching for file changes with StatReloader 681 
+2026-08-01 11:05:58,243 INFO E:\SajhaEduCore\config\apps\authx\api\views\login_view.py changed, reloading. 265 
+2026-08-01 11:05:58,738 INFO Watching for file changes with StatReloader 681 
+2026-08-01 17:21:57,512 INFO Watching for file changes with StatReloader 681 
+2026-08-01 23:14:39,485 INFO Watching for file changes with StatReloader 681 

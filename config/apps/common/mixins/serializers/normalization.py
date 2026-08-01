@@ -14,7 +14,7 @@ class NormalizeStringFieldsMixin:
 
     def validate(self, attrs):
         """
-         Remove extra spaces from configured (selected) string fields.
+        Remove extra spaces from configured (selected) string fields.
         """
 
         for field in self.normalize_fields:

@@ -1,6 +1,8 @@
-from .course_view import CourseListCreateApiView, CourseDetailApiView
+from .course_views import CourseListCreateAPIView, CourseDetailAPIView
+from .course_search_views import CourseSearchAPIView
 
 __all__ = [
-    "CourseListCreateApiView",
-    "CourseDetailApiView",
+    "CourseListCreateAPIView",
+    "CourseDetailAPIView",
+    "CourseSearchAPIView"
 ]

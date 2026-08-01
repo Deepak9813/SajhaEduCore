@@ -41,12 +41,13 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # 'apps.common.apps.CommonConfig',  # No need to specify the AppConfig class. Django automatically discovers it from apps.py.so,
     'apps.common',
+    'apps.authx',
     'apps.academics.courses',
     'apps.academics.shifts',
+    'apps.academics.employees',
     'apps.academics.teachers',
     'apps.academics.students',
     'apps.attendance',
-    'apps.authx',
     'apps.learning',
     'apps.notification',
 ]

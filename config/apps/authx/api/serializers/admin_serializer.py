@@ -53,19 +53,40 @@ class AdminSerializer(NormalizeStringFieldsMixin, serializers.ModelSerializer):
         email = normalize_email(email)
         validate_email_domain(email)
 
-        if User.objects.filter(email=email).exists():
+        queryset = User.objects.filter(email=email, is_deleted=False)
+
+        # Ignore current user during update
+        if self.instance:
+            queryset = queryset.exclude(pk=self.instance.pk)
+
+        if queryset.exists():
             raise serializers.ValidationError("Email already exists.")
+        
         return email
+        
+    def validate_phone_number(self, phone_number):
+        """
+        Validate phone number.
+        """
+
+        validate_nepal_mobile_number(phone_number)
+
+        queryset = User.objects.filter(phone_number=phone_number, is_deleted=False)
+
+        # Ignore current user during update
+        if self.instance:
+            queryset = queryset.exclude(pk=self.instance.pk)
+
+        if queryset.exists():
+            raise serializers.ValidationError("Phone number already exists.")
+
+        return phone_number
 
     def validate(self, data):
         if data["password"] != data["confirm_password"]:
             raise serializers.ValidationError("Passwords do not match.")
 
         return data
-
-    def validate_phone_number(self, phone_number):
-        validate_nepal_mobile_number(phone_number)
-        return phone_number
 
     def validate_password(self, password):
         validate_password(password)

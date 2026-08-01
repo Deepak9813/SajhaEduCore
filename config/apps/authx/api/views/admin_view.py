@@ -21,7 +21,6 @@ def _admin_payload(admin):
     """
       
     return {
-        "id": admin.id,
         "reference_id": admin.reference_id,
         "full_name": admin.full_name,
         "username": admin.username,
@@ -33,7 +32,7 @@ def _admin_payload(admin):
     }
 
 
-class AdminListCreateApiView(BaseSuperUserAPIView):
+class AdminListCreateAPIView(BaseSuperUserAPIView):
     """
     API for listing and creating admins.
     """
@@ -52,6 +51,7 @@ class AdminListCreateApiView(BaseSuperUserAPIView):
         serializer = AdminSerializer(data=request.data, context={"request":request})
         validate_serializer(serializer)
 
+        # user = request.user if request and request.user.is_authenticated else None
         user = request.user if request.user.is_authenticated else None
 
         admin = create_user(User, serializer.validated_data, user)
@@ -63,7 +63,7 @@ class AdminListCreateApiView(BaseSuperUserAPIView):
         )
 
 
-class AdminDetailApiView(BaseSuperUserAPIView):
+class AdminDetailAPIView(BaseSuperUserAPIView):
     """
     API for retrieving, updating and deleting a admin.
     """

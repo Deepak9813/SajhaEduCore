@@ -8,6 +8,7 @@ from apps.academics.courses.api.serializers.course_serializer import (
     CourseSerializer,
 )
 from apps.academics.courses.models import Course
+from apps.academics.courses.payloads.course_payload import _course_payload
 from apps.common.services.create import create_instance
 from apps.common.services.update import update_instance
 from apps.common.services.delete import delete_instance
@@ -15,24 +16,8 @@ from apps.common.utils.serializer import validate_serializer
 from apps.common.views import BaseAPIView
 
 
-def _course_payload(course):
-    """
-    Return course payload.
-    """
-      
-    return {
-        "id": course.id,  # "id": course.pk
-        "reference_id": course.reference_id,
-        "course_name": course.course_name,
-        "description": course.description,
-        "duration": course.duration,
-        "status": course.status,
-        "created_at": course.created_at.isoformat(),
-        "created_by": course.created_by.id,
-        
-    }
 
-class CourseListCreateApiView(BaseAPIView):
+class CourseListCreateAPIView(BaseAPIView):
     """
     API for listing and creating courses.
     """
@@ -55,7 +40,7 @@ class CourseListCreateApiView(BaseAPIView):
         serializer = CourseSerializer(data=request.data, context={"request": request})
         validate_serializer(serializer)
 
-        user = request.user if request and request.user.is_authenticated else None
+        user = request.user if request.user.is_authenticated else None
 
         course = create_instance(Course, serializer.validated_data,user)
 
@@ -67,7 +52,7 @@ class CourseListCreateApiView(BaseAPIView):
         )
 
 
-class CourseDetailApiView(BaseAPIView):
+class CourseDetailAPIView(BaseAPIView):
     """
     API for retrieving, updating and deleting a course.
     """
@@ -104,7 +89,7 @@ class CourseDetailApiView(BaseAPIView):
         serializer = CourseSerializer(course, data=request.data, partial=True, context={"request": request})
         validate_serializer(serializer)
 
-        user = request.user if request and request.user.is_authenticated else None
+        user = request.user if request.user.is_authenticated else None
 
         course = update_instance(course, serializer.validated_data,user)
 
@@ -128,3 +113,11 @@ class CourseDetailApiView(BaseAPIView):
             status_code=status.HTTP_200_OK, 
             data=_course_payload(course)
         )
+
+
+
+
+
+
+
+

@@ -25,6 +25,24 @@ class CourseSerializer(NormalizeStringFieldsMixin, serializers.ModelSerializer):
             "reference_id",
         ]
 
+    def validate_course_name(self, course_name):
+        """
+        Validate course name uniqueness.
+        """
+
+        queryset = Course.objects.filter(course_name=course_name, is_deleted=False)
+
+        # Ignore current course during update
+        if self.instance:
+            queryset = queryset.exclude(pk=self.instance.pk)
+
+        if queryset.exists():
+            raise serializers.ValidationError(
+                "Course name already exists."
+            )
+
+        return course_name
+
 
 
 

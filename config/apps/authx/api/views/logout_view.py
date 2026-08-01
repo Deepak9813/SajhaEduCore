@@ -8,7 +8,7 @@ from apps.common.views import BaseAPIView
 
 
 
-class LogoutApiView(BaseAPIView):
+class LogoutAPIView(BaseAPIView):
     """
     Logout user.
 
@@ -21,9 +21,9 @@ class LogoutApiView(BaseAPIView):
     permission_classes = [IsAuthenticated]
 
     def post(self, request):
-        print("request.COOKIES =", request.COOKIES)
-        print("Cookie header =", request.headers.get("Cookie"))
-        print("======================== Hello rohit is hitting ===================")
+        # print("request.COOKIES =", request.COOKIES)
+        # print("Cookie header =", request.headers.get("Cookie"))
+        # print("======================== Hello rohit is hitting ===================")
         # receive refresh token from cookie
         refresh_token = request.COOKIES.get("refresh_token")
 

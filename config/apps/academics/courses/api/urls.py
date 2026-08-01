@@ -1,13 +1,15 @@
 from django.urls import path
 
 from apps.academics.courses.api.views import (
-    CourseListCreateApiView,
-    CourseDetailApiView,
+    CourseListCreateAPIView,
+    CourseDetailAPIView,
+    CourseSearchAPIView,
 )
 
 
 urlpatterns = [
-    path("", CourseListCreateApiView.as_view(), name="course-list-create"),
-    path("<uuid:reference_id>/", CourseDetailApiView.as_view(), name="course-detail"),
+    path("", CourseListCreateAPIView.as_view(), name="course-list-create"),
+    path("search/", CourseSearchAPIView.as_view(), name="course-search"),
+    path("<uuid:reference_id>/", CourseDetailAPIView.as_view(), name="course-detail"),
 ]
 

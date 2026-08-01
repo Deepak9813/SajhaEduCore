@@ -15,7 +15,6 @@ def _user_payload(user):
     """
       
     return {
-        "id": user.id,
         "reference_id": user.reference_id,
         "full_name": user.full_name,
         "username": user.username,
@@ -27,7 +26,7 @@ def _user_payload(user):
     }
 
 
-class LoginApiView(BasePublicAPIView):
+class LoginAPIView(BasePublicAPIView):
     """
     Authenticate user and generate JWT tokens.
 

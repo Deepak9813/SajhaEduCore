@@ -7,3 +7,12 @@ class AuthxConfig(AppConfig):
     label = 'authx'             #optional
     verbose_name = 'Authx'      #optional
 
+
+
+
+
+
+
+
+
+

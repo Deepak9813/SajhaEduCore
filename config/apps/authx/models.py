@@ -16,8 +16,8 @@ class SajhaUser(AbstractUser):
         - is_staff -> Institute administrator
 
     Application Roles:
-        - Teacher
         - Employee
+        - Teacher
         - Student
     """
 
