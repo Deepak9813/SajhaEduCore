@@ -7,7 +7,7 @@ from apps.common.mixins.serializers.normalization import NormalizeStringFieldsMi
 
 class CourseSerializer(NormalizeStringFieldsMixin, serializers.ModelSerializer):
     normalize_fields = [
-        "name",
+        "course_name",
         "status",
     ]
 
@@ -15,7 +15,7 @@ class CourseSerializer(NormalizeStringFieldsMixin, serializers.ModelSerializer):
         model = Course
         fields = [
             "reference_id",
-            "name",
+            "course_name",
             "description",
             "duration",
             "course_fee",
