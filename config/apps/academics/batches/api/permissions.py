@@ -1,3 +1,4 @@
+
 from rest_framework.permissions import BasePermission, SAFE_METHODS
 
 
@@ -7,7 +8,7 @@ class IsAdminOrReadOnly(BasePermission):
     Allow write access only to admins.
     """
 
-    message = "You do not have permission to modify shifts."
+    message = "You do not have permission to modify courses."
 
     def has_permission(self, request, view):
 

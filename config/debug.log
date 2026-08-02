@@ -492,3 +492,17 @@ django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 2026-08-02 09:29:57,510 INFO Watching for file changes with StatReloader 681 
 2026-08-02 09:29:59,492 INFO E:\SajhaEduCore\config\config\urls.py changed, reloading. 265 
 2026-08-02 09:30:00,487 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:54:15,523 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:54:37,500 INFO E:\SajhaEduCore\config\config\urls.py changed, reloading. 265 
+2026-08-02 11:54:38,337 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:56:26,727 INFO E:\SajhaEduCore\config\apps\academics\courses\api\views\course_views.py changed, reloading. 265 
+2026-08-02 11:56:27,883 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:56:30,047 INFO E:\SajhaEduCore\config\apps\academics\courses\api\views\course_views.py changed, reloading. 265 
+2026-08-02 11:56:31,152 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:56:33,296 INFO E:\SajhaEduCore\config\apps\academics\courses\api\views\course_views.py changed, reloading. 265 
+2026-08-02 11:56:34,196 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:56:35,881 INFO E:\SajhaEduCore\config\apps\academics\courses\api\views\course_views.py changed, reloading. 265 
+2026-08-02 11:56:36,826 INFO Watching for file changes with StatReloader 681 
+2026-08-02 11:56:41,021 INFO E:\SajhaEduCore\config\apps\academics\courses\api\views\course_views.py changed, reloading. 265 
+2026-08-02 11:56:41,908 INFO Watching for file changes with StatReloader 681 
+2026-08-02 23:45:38,471 INFO Watching for file changes with StatReloader 681 

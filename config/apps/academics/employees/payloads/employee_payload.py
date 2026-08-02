@@ -5,6 +5,7 @@ def _employee_payload(employee):
     
     return {
         "reference_id": employee.reference_id,
+        "employee_code": employee.employee_code,
         "full_name": employee.full_name,
         "email": employee.email,
         "phone_number": str(employee.phone_number),

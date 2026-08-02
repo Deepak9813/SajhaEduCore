@@ -16,6 +16,11 @@ class Employee(BaseModel):
         null=True,
         blank=True,
     )
+    employee_code = models.CharField(
+        max_length=20,
+        unique=True,
+        editable=False,
+    )
     full_name = models.CharField(max_length=200)
     email = models.EmailField(unique=True)
     phone_number = PhoneNumberField(unique=True, region="NP")

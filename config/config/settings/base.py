@@ -44,6 +44,7 @@ LOCAL_APPS = [
     'apps.authx',
     'apps.academics.courses',
     'apps.academics.shifts',
+    'apps.academics.batches',
     'apps.academics.employees',
     'apps.academics.teachers',
     'apps.academics.students',

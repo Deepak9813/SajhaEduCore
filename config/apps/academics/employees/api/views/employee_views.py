@@ -11,8 +11,8 @@ from apps.academics.employees.models import Employee
 from apps.academics.employees.payloads.employee_payload import (
     _employee_payload,
 )
+from apps.academics.employees.services.create_employee import create_employee
 from apps.common.services import (
-    create_instance,
     delete_instance,
     update_instance,
 )
@@ -47,7 +47,7 @@ class EmployeeListCreateAPIView(BaseAPIView):
 
         user = request.user if request.user.is_authenticated else None
 
-        employee = create_instance(Employee, serializer.validated_data, user)
+        employee = create_employee(serializer.validated_data, user)
 
         # data = _employee_payload(employee)
         return self.success_handler(
