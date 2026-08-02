@@ -220,3 +220,18 @@ SIMPLE_JWT = {
     # Authorization header format
     "AUTH_HEADER_TYPES": ("Bearer",),
 }
+
+SWAGGER_SETTINGS = {
+    "SECURITY_DEFINITIONS": {
+        "Bearer": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header",
+            "description": (
+                "JWT Authorization header.\n\n"
+                "Enter your access token in the following format:\n\n"
+                "Bearer <your_access_token>"
+            ),
+        }
+    },
+}

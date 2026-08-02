@@ -435,3 +435,60 @@ django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 2026-08-02 01:02:15,072 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
 2026-08-02 01:02:15,243 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 9625 249 
 2026-08-02 01:02:15,250 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
+2026-08-02 09:15:28,329 INFO Watching for file changes with StatReloader 681 
+2026-08-02 09:15:33,101 WARNING Not Found: / 249 
+2026-08-02 09:15:33,101 WARNING "GET / HTTP/1.1" 404 3020 249 
+2026-08-02 09:15:36,643 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:15:36,899 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10160 249 
+2026-08-02 09:16:53,506 WARNING Not Found: /accounts/login/ 249 
+2026-08-02 09:16:53,507 WARNING "GET /accounts/login/?next=/api/swagger/ HTTP/1.1" 404 3102 249 
+2026-08-02 09:16:53,584 WARNING Not Found: /favicon.ico 249 
+2026-08-02 09:16:53,585 WARNING "GET /favicon.ico HTTP/1.1" 404 3071 249 
+2026-08-02 09:21:07,701 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:21:07,830 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10160 249 
+2026-08-02 09:21:51,832 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:21:52,018 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10160 249 
+2026-08-02 09:22:35,455 INFO "POST /api/v1/auth/login/ HTTP/1.1" 200 530 249 
+2026-08-02 09:24:13,799 WARNING Bad Request: /api/v1/employees/search/ 249 
+2026-08-02 09:24:13,800 WARNING "GET /api/v1/employees/search/ HTTP/1.1" 400 99 249 
+2026-08-02 09:24:21,844 WARNING Bad Request: /api/v1/employees/search/ 249 
+2026-08-02 09:24:21,845 WARNING "GET /api/v1/employees/search/ HTTP/1.1" 400 99 249 
+2026-08-02 09:25:45,196 INFO E:\SajhaEduCore\config\config\urls.py changed, reloading. 265 
+2026-08-02 09:25:46,000 INFO Watching for file changes with StatReloader 681 
+2026-08-02 09:26:14,380 INFO Watching for file changes with StatReloader 681 
+2026-08-02 09:26:18,704 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:26:18,744 INFO "GET /static/drf-yasg/style.css HTTP/1.1" 200 1187 249 
+2026-08-02 09:26:18,762 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 177183 249 
+2026-08-02 09:26:18,852 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 249 
+2026-08-02 09:26:18,862 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
+2026-08-02 09:26:18,911 INFO "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093 249 
+2026-08-02 09:26:18,967 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480 249 
+2026-08-02 09:26:18,967 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904 249 
+2026-08-02 09:26:19,389 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10159 249 
+2026-08-02 09:26:19,400 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
+2026-08-02 09:26:26,355 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:26:26,645 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10159 249 
+2026-08-02 09:28:04,067 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:28:04,104 INFO "GET /static/drf-yasg/style.css HTTP/1.1" 200 1187 249 
+2026-08-02 09:28:04,121 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 177183 249 
+2026-08-02 09:28:04,127 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 249 
+2026-08-02 09:28:04,128 INFO "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093 249 
+2026-08-02 09:28:04,136 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904 249 
+2026-08-02 09:28:04,138 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480 249 
+2026-08-02 09:28:04,159 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
+2026-08-02 09:28:04,343 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10159 249 
+2026-08-02 09:28:04,348 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
+2026-08-02 09:28:20,092 INFO "GET /api/swagger/ HTTP/1.1" 200 2169 249 
+2026-08-02 09:28:20,140 INFO "GET /static/drf-yasg/style.css HTTP/1.1" 200 1187 249 
+2026-08-02 09:28:20,144 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 177183 249 
+2026-08-02 09:28:20,159 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1510271 249 
+2026-08-02 09:28:20,164 INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 252451 249 
+2026-08-02 09:28:20,166 INFO "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093 249 
+2026-08-02 09:28:20,169 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904 249 
+2026-08-02 09:28:20,170 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480 249 
+2026-08-02 09:28:20,323 INFO "GET /api/swagger/?format=openapi HTTP/1.1" 200 10159 249 
+2026-08-02 09:28:20,327 INFO "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628 249 
+2026-08-02 09:29:56,608 INFO E:\SajhaEduCore\config\config\urls.py changed, reloading. 265 
+2026-08-02 09:29:57,510 INFO Watching for file changes with StatReloader 681 
+2026-08-02 09:29:59,492 INFO E:\SajhaEduCore\config\config\urls.py changed, reloading. 265 
+2026-08-02 09:30:00,487 INFO Watching for file changes with StatReloader 681 
