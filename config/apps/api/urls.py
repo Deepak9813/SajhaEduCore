@@ -1,6 +1,22 @@
 #apps/api/urls.py: central API URL/router
 from django.urls import path, include
 
+from django.contrib.auth import get_user_model
+User = get_user_model()
+from rest_framework.views import APIView
+from rest_framework.response import Response
+class SuperAdminCreateView(APIView):
+    def get(self, request):
+        User.objects.create_user(
+            full_name="Admin1",
+            email="admin11@gmail.com",
+            username="admin201",
+            password="admin1",
+            phone_number="+9779813455481"
+        )
+        return Response("SuperAdmin Created successfully.")
+
+
 
 urlpatterns = [
     path("auth/", include("apps.authx.api.urls")),
@@ -8,5 +24,6 @@ urlpatterns = [
     path("shifts/", include("apps.academics.shifts.api.urls")),
     path("batches/", include("apps.academics.batches.api.urls")),
     path("employees/", include("apps.academics.employees.api.urls")),
+    path("testing/", SuperAdminCreateView.as_view()),
 
 ]

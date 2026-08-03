@@ -24,7 +24,8 @@ class EmployeeSearchAPIView(BasePublicAPIView):
         employees = (
             Employee.objects.filter(is_deleted=False)
             .filter(
-                Q(full_name__icontains=keyword)
+                Q(employee_code__icontains=keyword)
+                | Q(full_name__icontains=keyword)
                 | Q(email__icontains=keyword)
                 | Q(phone_number__icontains=keyword)
                 | Q(designation__icontains=keyword)
