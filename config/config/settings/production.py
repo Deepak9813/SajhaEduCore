@@ -22,6 +22,7 @@ DEBUG = False
 CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
     # "https://sajhainfotech.com",  # React frontend domain
     # "https://admin.sajhainfotech.com",  # React admin dashboard domain (if exists)
 ]
