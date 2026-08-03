@@ -538,3 +538,4 @@ django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 2026-08-03 11:07:54,171 INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458 249 
 2026-08-03 11:07:54,176 INFO "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59 249 
 2026-08-03 11:07:54,179 INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268 249 
+2026-08-03 13:57:55,818 INFO Watching for file changes with StatReloader 681 

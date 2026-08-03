@@ -22,7 +22,7 @@ DEBUG = False
 CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
-    "https://sajhainfotech.com",  # React frontend domain
+    # "https://sajhainfotech.com",  # React frontend domain
     # "https://admin.sajhainfotech.com",  # React admin dashboard domain (if exists)
 ]
 
@@ -32,7 +32,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 # Trusted frontend origins for CSRF protection.
 CSRF_TRUSTED_ORIGINS = [
-    "https://sajhaeducore.onrender.com",
+    # "https://sajhaeducore.onrender.com",
     # "https://sajhainfotech.com",
     # "https://admin.sajhainfotech.com",
 ]
