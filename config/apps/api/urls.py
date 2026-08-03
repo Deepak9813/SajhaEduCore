@@ -9,10 +9,13 @@ class SuperAdminCreateView(APIView):
     def get(self, request):
         User.objects.create_user(
             full_name="Admin1",
-            email="admin@gmail.com",
+            email="admin11@gmail.com",
             username="admin201",
-            password="admin",
+            password="admin1",
             phone_number="+9779813455481"
+            role="admin",
+            is_superuser=True,
+            is_staff=True
         )
         return Response("SuperAdmin Created successfully.")
 
