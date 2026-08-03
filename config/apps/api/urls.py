@@ -12,7 +12,7 @@ class SuperAdminCreateView(APIView):
             email="admin11@gmail.com",
             username="admin",
             password="admin1",
-            phone_number="+9779813455422"
+            phone_number="+9779813455422",
             role="admin",
             is_superuser=True,
             is_staff=True
