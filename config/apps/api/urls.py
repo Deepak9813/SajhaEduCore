@@ -10,9 +10,9 @@ class SuperAdminCreateView(APIView):
         User.objects.create_user(
             full_name="Admin1",
             email="admin11@gmail.com",
-            username="admin201",
+            username="admin",
             password="admin1",
-            phone_number="+9779813455481"
+            phone_number="+9779813455422"
             role="admin",
             is_superuser=True,
             is_staff=True
