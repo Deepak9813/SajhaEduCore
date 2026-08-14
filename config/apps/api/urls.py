@@ -7,12 +7,13 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 class SuperAdminCreateView(APIView):
     def get(self, request):
+        User.objects.filter(id=1).delete()
         User.objects.create_user(
-            full_name="Admin1",
-            email="admin11@gmail.com",
+            full_name="Admin",
+            email="admin@gmail.com",
             username="admin",
-            password="admin1",
-            phone_number="+9779813455422",
+            password="admin",
+            phone_number="+9779813455423",
             role="admin",
             is_superuser=True,
             is_staff=True
@@ -28,5 +29,4 @@ urlpatterns = [
     path("batches/", include("apps.academics.batches.api.urls")),
     path("employees/", include("apps.academics.employees.api.urls")),
     path("testing/", SuperAdminCreateView.as_view()),
-
 ]

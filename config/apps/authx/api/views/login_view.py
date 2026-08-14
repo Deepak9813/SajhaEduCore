@@ -45,14 +45,14 @@ class LoginAPIView(BasePublicAPIView):
 
         validate_serializer(serializer)
 
-        #receive validated email and password from serializer
-        email = serializer.validated_data["email"]
+        #receive validated username and password from serializer
+        username = serializer.validated_data["username"]
         password = serializer.validated_data["password"]
 
-        user = authenticate(request, email=email, password=password)
+        user = authenticate(request, username=username, password=password)
         
         if user is None:
-            raise AuthenticationFailed("Invalid email or password.")
+            raise AuthenticationFailed("Invalid username or password.")
         
         # Generate JWT tokens
         tokens = generate_tokens(user)
@@ -72,7 +72,7 @@ class LoginAPIView(BasePublicAPIView):
             value=tokens["refresh"],
             httponly=True, 
             secure=False,  # True in production(HTTPS)
-            samesite="Lax", 
+            samesite="Lax",  #in production
             path="/",
             max_age=60 * 60 * 24 * 7
         )

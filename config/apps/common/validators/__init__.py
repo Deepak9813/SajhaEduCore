@@ -6,7 +6,7 @@ from .file import validate_file
 from .image import validate_image
 from .password import validate_password
 from .pdf import validate_pdf
-from .phone import validate_nepal_mobile_number
+from .phone1 import validate_nepal_mobile_number
 
 #this __all__ is optional
 __all__ = [

@@ -51,7 +51,10 @@ def custom_exception_handler(exc, context):
             return Response(
                 {
                     "success": False,
-                    "message": "Authentication failed.",
+                    "message": response.data.get(
+                        "detail",
+                        "Authentication failed.",
+                    ),
                 },
                 status=status.HTTP_401_UNAUTHORIZED,
             )

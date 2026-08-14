@@ -6,10 +6,11 @@ from drf_yasg.utils import swagger_auto_schema
 
 from apps.authx.api.serializers.admin_serializer import AdminSerializer
 from apps.authx.services import (
+    create_admin,
     create_user,
     update_user
 )
-from apps.common.services import delete_instance
+from apps.common.services import delete_instance, deactivate_user
 from apps.common.utils.serializer import validate_serializer
 from apps.common.views import BaseSuperUserAPIView
 
@@ -40,7 +41,7 @@ class AdminListCreateAPIView(BaseSuperUserAPIView):
     """
     def get(self, request):
         # admins = User.objects.filter(is_staff=True, role="admin", is_deleted=False)
-        admins = User.objects.filter(is_staff=True, role=User.UserRole.ADMIN, is_deleted=False)
+        admins = User.objects.filter(is_staff=True, role=User.UserRole.ADMIN, is_active=True)
 
         data = [_admin_payload(admin) for admin in admins]
         return self.success_handler(
@@ -59,7 +60,7 @@ class AdminListCreateAPIView(BaseSuperUserAPIView):
         # user = request.user if request and request.user.is_authenticated else None
         user = request.user if request.user.is_authenticated else None
 
-        admin = create_user(User, serializer.validated_data, user)
+        admin = create_admin(User, serializer.validated_data, user)
         # data = _admin_payload(admin)
         return self.success_handler(
             message="Admin created successfully.",
@@ -78,6 +79,7 @@ class AdminDetailAPIView(BaseSuperUserAPIView):
         return User.objects.get(
             reference_id=reference_id,
             is_staff=True,
+            is_superuser=False,
             role=User.UserRole.ADMIN,
             is_deleted=False
         )
@@ -115,7 +117,7 @@ class AdminDetailAPIView(BaseSuperUserAPIView):
         admin = self._get_admin(reference_id)
         user = request.user if request.user.is_authenticated else None
 
-        admin = delete_instance(admin, user)
+        admin = deactivate_user(admin, user)
 
         # data = _admin_payload(admin)
         return self.success_handler(

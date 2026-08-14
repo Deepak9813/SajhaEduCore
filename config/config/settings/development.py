@@ -5,7 +5,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', '192.168.0.116', '192.168.0.114']
+ALLOWED_HOSTS = ['*']
 
 # Allow all frontend origins during development.
 # Do not use this in production.

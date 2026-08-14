@@ -24,6 +24,8 @@ class LogoutAPIView(BaseAPIView):
         # receive refresh token from cookie
         refresh_token = request.COOKIES.get("refresh_token")
 
+        print("=======================", refresh_token)
+
         if not refresh_token:
             # raise ValidationError("Refresh token is required.")
             raise ValidationError(
@@ -40,7 +42,8 @@ class LogoutAPIView(BaseAPIView):
         response.delete_cookie(
             key="refresh_token",
             path="/",
-            samesite="Lax",
+            # samesite="Lax",
+             samesite='None',       # in local
         )
 
         return response
