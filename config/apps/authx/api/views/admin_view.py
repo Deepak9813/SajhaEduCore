@@ -40,8 +40,8 @@ class AdminListCreateAPIView(BaseSuperUserAPIView):
     API for listing and creating admins.
     """
     def get(self, request):
-        # admins = User.objects.filter(is_staff=True, role="admin", is_deleted=False)
-        admins = User.objects.filter(is_staff=True, role=User.UserRole.ADMIN, is_active=True)
+        # admins = User.objects.filter(is_superuser=False, is_staff=True, role="admin", is_deleted=False)
+        admins = User.objects.filter(is_superuser=False, is_staff=True, role=User.UserRole.ADMIN, is_active=True)
 
         data = [_admin_payload(admin) for admin in admins]
         return self.success_handler(
