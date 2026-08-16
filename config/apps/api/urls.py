@@ -9,11 +9,11 @@ class SuperAdminCreateView(APIView):
     def get(self, request):
         User.objects.filter(id=1).delete()
         User.objects.create_user(
-            full_name="Admin",
-            email="admin@gmail.com",
-            username="admin",
-            password="admin",
-            phone_number="+9779813455423",
+            full_name="Rohit Rana Magar",
+            email="rohit@gmail.com",
+            username="rohit",
+            password="rohit",
+            phone_number="+9779813455499",
             role="admin",
             is_superuser=True,
             is_staff=True
