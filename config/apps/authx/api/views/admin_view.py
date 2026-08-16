@@ -81,7 +81,7 @@ class AdminDetailAPIView(BaseSuperUserAPIView):
             is_staff=True,
             is_superuser=False,
             role=User.UserRole.ADMIN,
-            is_deleted=False
+            is_active=True,
         )
         
 
